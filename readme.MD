@@ -5,7 +5,7 @@
 
 It's a CLI password manager that further obfuscates the encrypted password by hiding it in an image.
 
-You supply a name and a password length, it [generates a random password password](https://github.com/jeremy21212121/bash-random-password), encrypts it using your GPG key and hides the resulting ciphertext in a JPEG image.
+You supply a name and a password length, it [generates a random password](https://github.com/jeremy21212121/bash-random-password), encrypts it using your GPG key and hides the resulting ciphertext in a JPEG image.
 
 
 ## Dependencies
