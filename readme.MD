@@ -17,7 +17,7 @@ You supply a name and a password length, it [generates a random password](https:
 
 ## Installation
 1. First clone this repo
-  `git clone https://github.com/jeremy21212121/bash-steganography-password-manager.git'
+  `git clone https://github.com/jeremy21212121/bash-steganography-password-manager.git`
 
 2. Change directory into the project
   `cd bash-steganography-password-manager`
