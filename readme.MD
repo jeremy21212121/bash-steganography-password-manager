@@ -13,27 +13,21 @@ You supply a name and a password length, it [generates a random password](https:
 1. Ubuntu or other linux distro that uses systemd
 2. steghide, CLI steganography program that does the magic. `sudo apt-get install steghide`
 3. gpg (`sudo apt-get install gpg` ). Also, current user must have a gpg key. [Here's how to generate one, if needed.](https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages-on-an-ubuntu-12-04-vps#set-up-gpg-keys)
-4. gen.sh, which lives [here in its own repo 'cause I wrote it first.](https://github.com/jeremy21212121/bash-random-password)
+4. gen.sh, which lives [here in its own repo 'cause I wrote it first.](https://github.com/jeremy21212121/bash-random-password) It should be pulled in automatically when cloning this repo as a submodule.
 
 ## Installation
 1. First clone this repo
   ```git clone https://github.com/jeremy21212121/bash-steganography-password-manager.git```
 
-2. Change directory into the project
-  ```cd bash-steganography-password-manager```
-
-3. Clone the repo to get the gen.sh dependency
-  ```git clone https://github.com/jeremy21212121/bash-random-password.git```
-
-4. Install steghide, because it is not installed by default
+2. Install steghide, because it is not installed by default
   ```sudo apt-get install steghide```
 
-5. Install GPG, if you aren't uber 1337
+3. Install GPG, if you aren't uber 1337 yet
   ```sudo apt-get install gpg```
 
-6. (Optional) If you don't already have a GPG key generated for that user, [here is how to generate one.](https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages-on-an-ubuntu-12-04-vps#set-up-gpg-keys)
+5. (Optional) If you don't already have a GPG key generated for that user, [here is how to generate one.](https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages-on-an-ubuntu-12-04-vps#set-up-gpg-keys)
 
-A later version of this script will make installation MUCH easier. This is the MVP. There will also be an option to use AES-256 in CBC mode, making GPG optional.
+To do: Add an option to use AES-256 in CBC mode, making GPG optional.
 
 
 ## Usage
@@ -53,7 +47,7 @@ So the evil h@xx0rs won't even know where to start brute forcing, with my passwo
 
 ## No, seriously, why?
 
-To brush up on my bash skills, mostly. I've been using bash for 10+ years, but had lots of gaps in my knowledge. 
+To brush up on my bash skills, mostly. I've been using bash for 10+ years, but have lots of gaps in my knowledge. 
 
 
 Also, it was a lot of fun!

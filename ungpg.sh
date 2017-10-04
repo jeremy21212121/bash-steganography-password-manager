@@ -13,5 +13,5 @@ steghide extract -p "" -sf $1.jpg -xf $tmpf
 # decrypt the extracted text and display to stdout
 gpg -d $tmpf
 # delete temporary file
-rm $tmpf
+shred -u $tmpf
 exit 0

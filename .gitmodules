@@ -1,0 +1,3 @@
+[submodule "bash-random-password"]
+	path = bash-random-password
+	url = git@github.com:jeremy21212121/bash-random-password.git
